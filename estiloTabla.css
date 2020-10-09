@@ -1,0 +1,16 @@
+/*001*/
+th, td {
+    padding: 6px;
+    text-align: left;
+    font-size:150%;
+    text-align: center;
+}
+/*001*/
+th {
+    background-color: #4e0203;
+}
+/*011*/
+tr:hover {
+    background-color: #cc0002;
+    color:white;
+}

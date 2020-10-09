@@ -1,10 +1,16 @@
+/*010*/
 .gridTitulo { grid-area: header; }
+/*010*/
 .gridCaratula { grid-area: menu; }
+/*010*/
 .gridDirector { grid-area: main; }
+/*010*/
 .gridProductor { grid-area: article; }
+/*010*/
 .gridCrítica { grid-area: right; }
+/*010*/
 .gridSinopsis { grid-area: footer; }
-
+/*010*/
 .gridInfo {
   display: grid;
   grid-template-areas:
@@ -15,6 +21,7 @@
   background-color:black;
   padding: 10px;
   }
+  /*011*/
 .gridInfo> div {
   background-color: #747474;
   text-align: center;
@@ -22,29 +29,32 @@
   font-size: 1.2em;
   color:white;
 }
+/*011*/
   .gridTitulo > h2{
   font-size: 2em;
   color:white;
 }
+/*011*/
 .gridDirector > ul {
   list-style: none;
   text-align: left;
 }
-
+/*011*/
  div > .gridCrítica{
   background-color: #efefef;
 }
+/*011*/
  div > .gridCaratula {
   background-color: black;
 }
+/*011*/
 div > .gridTitulo {
-  background-color: #1D7135;
+  background-color: #cc0002;
 }
+/*011*/
 div > .gridSinopsis {
   background-color: black;
 }
-
-
-
-  
-
+img {
+    border: none;
+}

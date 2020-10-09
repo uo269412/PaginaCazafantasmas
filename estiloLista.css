@@ -1,0 +1,19 @@
+/*001*/
+ul {
+    padding: 10px;
+    list-style-type: circle;
+    width: 30%;
+}
+/*001*/
+li {
+    padding: 6px;
+}
+/*002*/
+ul li {
+    margin-left: 20px;
+}
+/*012*/
+ul li:hover {
+    background-color: #555353;
+    color:white;
+}

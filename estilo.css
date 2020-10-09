@@ -1,3 +1,4 @@
+/*001*/
 body {
     font-family: "Optima", sans-serif;
     padding:6px;
@@ -5,6 +6,7 @@ body {
     background-color:black;
     color:white;
 }
+/*001*/
 h1 {
     color:#ffff;
     text-transform: uppercase;
@@ -20,81 +22,50 @@ h1 {
     -5px 5px 0 #cc0002,
     5px 5px 0 #cc0002;
 }
+/*001*/
 h2 {
     color:#cc0002;
     font-size: 150%;
     text-transform: uppercase;
 }
+/*001*/
 h3 {
     color:#cc0002;
     text-transform: uppercase;
 }
-li {
-    padding: 6px;
-}
-th, td {
-    padding: 6px;
-    text-align: left;
-    font-size:150%;
-    text-align: center;
-}
-th {
-    background-color: #4e0203;
-}
-ul {
-    padding: 10px;
-    list-style-type: circle;
-    width: 30%;
-}
-ul li {
-    margin-left: 20px;
-}
-ul li:hover {
-    background-color: #555353;
-    color:white;
-}
-tr:hover {
-    background-color: #cc0002;
-    color:white;
-}
-img {
-    border: 10px solid #cc0002;
-}
-.centerimage {
-    text-align: center;
-}
+/*001*/
 footer {
     text-align: center;
 }
-
-.box1, .box2 {
+/*010*/
+.box {
     float: left;
-    width: 50%;
+    width: 14.28%;
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
-  }
-  
+    background-color:#640002 ;
+}  
+/*010*/
   .boxInfo {
     content: "";
     clear: both;
     width: 100%;
     display: table;
-
-  } 
-
-  .boxInfo > .box1{
-    background-color:#640002 ;
-  } 
-  .boxInfo > .box2{
-    background-color:#cc0002 ;
-  } 
+} 
+/*011*/
   a:link{
-      color:rgb(148, 179, 214);
-  }
-  a:visited{
-    color:rgb(157, 201, 252);
+      color:rgb(199, 221, 247);
 }
-
-
-  
+/*011*/
+  a:visited{
+    color:rgb(183, 217, 255);
+}
+/*001*/
+img {
+    border: 10px solid #cc0002;
+}
+/*010*/
+.centerimage {
+    text-align: center;
+}

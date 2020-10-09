@@ -1,0 +1,100 @@
+body {
+    font-family: "Optima", sans-serif;
+    padding:6px;
+    font-size:16px;
+    background-color:black;
+    color:white;
+}
+h1 {
+    color:#ffff;
+    text-transform: uppercase;
+    padding: 120px 10px;
+    text-align: left; 
+    font-size: 400%;
+    background-image:url("multimedia/ghost.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-shadow:
+    -5px -5px 0 #cc0002,
+    5px -5px 0 #cc0002,
+    -5px 5px 0 #cc0002,
+    5px 5px 0 #cc0002;
+}
+h2 {
+    color:#cc0002;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+h3 {
+    color:#cc0002;
+    text-transform: uppercase;
+}
+li {
+    padding: 6px;
+}
+th, td {
+    padding: 6px;
+    text-align: left;
+    font-size:150%;
+    text-align: center;
+}
+th {
+    background-color: #4e0203;
+}
+ul {
+    padding: 10px;
+    list-style-type: circle;
+    width: 30%;
+}
+ul li {
+    margin-left: 20px;
+}
+ul li:hover {
+    background-color: #555353;
+    color:white;
+}
+tr:hover {
+    background-color: #cc0002;
+    color:white;
+}
+img {
+    border: 10px solid #cc0002;
+}
+.centerimage {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+.box1, .box2 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .boxInfo {
+    content: "";
+    clear: both;
+    width: 100%;
+    display: table;
+
+  } 
+
+  .boxInfo > .box1{
+    background-color:#640002 ;
+  } 
+  .boxInfo > .box2{
+    background-color:#cc0002 ;
+  } 
+  a:link{
+      color:rgb(148, 179, 214);
+  }
+  a:visited{
+    color:rgb(157, 201, 252);
+}
+
+
+  

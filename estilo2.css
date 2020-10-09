@@ -1,0 +1,72 @@
+body {
+    font-family: "Optima", sans-serif;
+    padding:6px;
+    font-size:16px;
+    background-color:black;
+    color:white;
+}
+
+h2 {
+    color:#1D7135;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+.gridTitulo { grid-area: header; }
+.gridCaratula { grid-area: menu; }
+.gridDirector { grid-area: main; }
+.gridProductor { grid-area: article; }
+.gridCrítica { grid-area: right; }
+.gridSinopsis { grid-area: footer; }
+
+.gridInfo {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'menu main right'
+      'footer footer footer';
+    grid-gap: 10px;
+    background-color:black;
+    padding: 10px;
+  }
+  .gridInfo> div {
+    background-color: #747474;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 1.2em;
+    color:white;
+  }
+  .gridTitulo > h2{
+    font-size: 2em;
+    color:white;
+  }
+  .gridDirector > ul {
+      list-style: none;
+      text-align: left;
+  }
+
+  div > .gridCrítica{
+    background-color: #efefef;
+  }
+  div > .gridCaratula {
+      background-color: black;
+  }
+  div > .gridTitulo {
+    background-color: #1D7135;
+
+  }
+  div > .gridSinopsis {
+      background-color: black;
+  }
+  a:link{
+    color:rgb(148, 179, 214);
+}
+a:visited{
+  color:rgb(75, 149, 233);
+}
+footer {
+    text-align: center;
+}
+
+
+  
+
